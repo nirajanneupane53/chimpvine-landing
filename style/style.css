@@ -1,0 +1,555 @@
+
+
+:root {
+    --primary: #5928E5;
+    --secondary: #FF683B;
+    --bgcolor1: #F6F2FD;
+    --white: #ffff;
+    --black: #0000;
+    --text:#5E5579;
+    --darkpurple:#190C3F;
+
+
+  }
+
+
+
+
+  .col-primary{
+    color: var(--primary);
+  }
+  .col-secondary{
+    color: var(--secondary);
+  }
+  .col-bg1{
+    color: var(--bgcolor1);
+  }
+  .col-white{
+    color: var(--white);
+  }
+  .col-black{
+    color: var(--black);
+  }
+
+  .col-txt{
+    color: var(--text);
+  }
+
+  .col-darkpurple{
+    color:var(--darkpurple);
+  }
+
+  .main{
+    font-family:'Poppins', sans-serif ;
+  }
+
+.landing-section{
+    background-color: var(--bgcolor1);
+
+}
+
+  .bg-color-1{
+    background-color: var(--bgcolor1);
+  }  
+
+
+.bg-primary-cv{
+    background-color: var(--primary);
+}
+
+
+
+h1{
+font-size: 48px;
+}
+
+h2{
+    font-size: 38px;
+  }
+h3{
+    font-size: 32px;
+  }
+h4{
+    font-size: 22px;
+   }
+h5{
+    font-size: 18px;
+   }
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+
+.info .first h1 {
+    font-family: 'Varela Round', sans-serif;
+  
+    color: var(--secondary);
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.a-link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.landing-content span::before {
+    content: '';
+    animation: animate infinite 8s;
+}
+
+@keyframes animate {
+    0% {
+        color: var(--secondary);
+        content: 'Learn while you have fun!';
+    }
+
+    50% {
+        color: var(--primary);
+        content: 'Kickstart a learning adventure with us!';
+    }
+
+    100% {
+        color: black;
+        content: 'The smartest way to learn for your kids!';
+    }
+}
+
+.info .second h3 {
+   
+    height: 62px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 31px;
+    color: #473D65;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.banner-button {
+    background-color: var(--secondary);
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    color: var(--white);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.start{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.we-provide-first{
+    max-width: 800px;
+    display: inline-block;
+}
+
+
+.we-provide-grid .row .col{
+    max-width: 500px;
+    background-color:var(--bgcolor1);
+    border-radius: 10px;
+}
+
+.we-provide-grid .top-card{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.we-provide-grid .card-1 .top-card {
+    background-color: var(--secondary);
+    
+}
+.we-provide-grid .card-2 .top-card{
+    background-color: #FDCF3F;
+   
+  
+}
+
+.we-provide-grid .card-3 .top-card{
+    background-color: var(--primary);
+  
+}
+.we-provide-grid .card-4 .top-card{
+    background-color: #00C3FC;
+  
+}
+.we-provide-grid .bottom{
+  
+    border-radius: 0px 0px 10px 10px;
+}
+
+.we-provide-grid .card-1 h3{
+    color: var(--secondary);
+}
+.we-provide-grid .card-2 h3{
+    color: #FDCF3F;
+}
+.we-provide-grid .card-3 h3{
+    color: var(--primary);
+}
+.we-provide-grid .card-4 h3{
+    color:  #00C3FC;
+}
+
+.we-provide-grid .bottom .button ,  .educational-games .button{
+    background-color: var(--primary);
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    padding: 8px 30px;
+    border-radius: 34px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.edu-game-grid img{
+    height: 175px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.edu-game-grid .button{
+    background-color:var(--secondary);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+a.cv-button {
+    border: 2px solid var(--primary);
+    border-radius: 30px;
+    color: var(--primary);
+    padding: 8px 30px;
+    text-decoration: none;
+}
+
+.curriculum-grid .grid-top{
+    background-color: var(--white);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.curriculum-grid .grid-bottom{
+    border-radius: 0px 0px 15px 15px;
+    height: 100px;
+    /* background-color: var(--white); */
+}
+
+.curriculum-based-quiz .curriculum-grid .grid-top img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+
+.article-grid .col img{
+    height: 170px;
+    object-fit: cover;
+    border-radius:5px;
+    box-shadow: 3px 2px 2px 0px #d2d2d2;
+}
+
+.type-data-nav{
+    list-style-type: none;
+} 
+
+.type-data {
+    margin-right: 30px;
+    color: #8C869F;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.activehr {
+    background: #F6F2FD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: #5928E5;
+
+}
+
+.price-cards-wrapper {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.price-card {
+    width: 30%;
+    height: 470px;
+    background: white;
+    margin: 10px 35px;
+    border-radius: 25px;
+    padding: 20px;
+    min-width: 300px;
+
+}
+.price-card-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.price-card-body {
+    padding: 7px;
+}
+
+.features-wrapeer {
+    text-align: left;
+}
+
+.img-top {
+    width: 100px;
+    height: 100px;
+}
+
+.features-wrapeer {
+    color: #5E5579;
+}
+
+.features {
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.check {
+    margin-right: 10px;
+    color: #5928E5;
+    font-size: 20px;
+}
+
+.big-text {
+    color: #5928E5;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Varela Round';
+
+}
+
+.price {
+    font-weight: 500;
+    color: #302452;
+    font-family: 'Varela Round';
+    font-size: 37px;
+    margin-bottom: 0px !important;
+    padding-bottom: 0;
+}
+
+.buy-btn {
+    padding: 5px 20px;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #D1CED9;
+    color: #8C869F;
+}
+
+.price-helper {
+    color: #FF683B;
+    font-family: 'Varela Round';
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.extra-body {
+    height: 90px;
+}
+
+
+.selected-price {
+    background: linear-gradient(90deg, #5928E5 0%, #7A53EA 103.31%) !important;
+    color: white !important;
+}
+
+.white-text {
+    color: #F6F2FD !important;
+}
+
+.purple-text {
+    color: #5E5579;
+}
+
+.black-text {
+    color: #0F0726;
+}
+
+.purple-btn {
+    background: #5928E5;
+    color: #F6F2FD;
+    border: 1px solid #5928E5;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+
+}
+
+.partner-cards-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partner-card {
+    min-width: 150px;
+    width: 16%;
+    height: 160px;
+}
+
+.ed-partners {
+    margin-top: 64px !important;
+}
+
+.ed-header {
+    margin-bottom: 30px;
+    color: #756D8C;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Varela Round';
+}
+
+.md-header {
+    background: #F6F2FD !important;
+    background-image: none;
+}
+
+.paymentdiv {
+    background: #F6F2FD !important;
+    width: 800px;
+    margin: auto;
+
+}
+
+.payment-title {
+    font-size: 30px;
+    color: #5928E5;
+    font-weight: 700;
+    font-family: 'Varela Round';
+
+}
+
+.py-header {
+    padding: 10px 40px !important;
+}
+
+.sub-header-p {
+    color: #5E5579;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px !important;
+}
+
+.pdinfo-wrapper {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #D1CED9;
+}
+
+.pdinfo {
+    padding: 7px;
+    padding-left: 20px;
+    color: #190C3F;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+.payment-card {
+    width: 120px;
+    height: 80px;
+    cursor: pointer
+}
+
+.payment-query {
+    color: #5E5579;
+    font-size: 18px;
+    flex-grow: 1;
+    padding: 0px 15px;
+}
+
+.continue {
+    min-width: 120px;
+    height: 40px;
+    background: #5928E5;
+    color: white;
+    border: none;
+    border-radius: 20px
+}
+
+.mdb {
+    padding-left: 40px !important;
+}
+
+.hxh {
+    border: none;
+    background: #F6F2FD;
+    color: #5E5579;
+    position: relative;
+    left: 20px;
+}
+
+.hxhb {
+    border: none;
+    background: #F6F2FD;
+    color: #5E5579;
+    position: relative;
+    left: 20px;
+}
+
+#pdiwt {
+    cursor: pointer;
+}
+
+.activepd {
+    border-radius: 20px;
+    background: #5928E5;
+    color: white;
+    border: none;
+}
+
+.fa-check-circle:before {
+    content: "\f058";
+}   
+/* breakpoint with min widtn 992px  */
+@media (min-width: 992px) {
+    .col-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%!important;
+    }
+
+    .educational-games .edu-content{
+        max-width: 315px;
+    }
+}
+
+
+/* breakpoint with max width 576px */
+@media (max-width: 576px) { 
+  
+
+
+}
+
+
+
